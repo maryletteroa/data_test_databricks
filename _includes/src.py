@@ -621,6 +621,4 @@ def validate_spark_table(
     ).run()
     validation_result_identifier = results.list_validation_result_identifiers()[0]
     context.build_data_docs()
-    context.open_data_docs(validation_result_identifier)
-
 

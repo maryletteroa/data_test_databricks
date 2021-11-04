@@ -201,10 +201,6 @@ for csv in glob(f"/dbfs/{source_data_dir}/*.csv"):
 
 # COMMAND ----------
 
-glob(f"/dbfs/{raw_data_profile_dir}/*")
-
-# COMMAND ----------
-
 if not os.path.exists(f"/dbfs/{raw_data_profile_dir}"):
     os.mkdir(f"/dbfs/{raw_data_profile_dir}")
 
@@ -256,6 +252,10 @@ for table in glob(f"/dbfs/{present_data_dir}/*"):
         prefix = name
     )
 
+
+# COMMAND ----------
+
+# MAGIC %md check profiles
 
 # COMMAND ----------
 

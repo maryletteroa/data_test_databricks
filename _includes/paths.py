@@ -26,7 +26,7 @@ present_data_profile_dir = f"{data_profile_dir}/3_present"
 # great_expectations
 great_expectations_root = f"{docs_dir}/great_expectations"
 expectations_suite_dir = f"{great_expectations_root}/expectations"
-validations_dir = f"{great_expectations_root}/expectations"
+validations_dir = f"{great_expectations_root}/validations"
 data_docs_dir = f"{great_expectations_root}/data_docs"
 
 
