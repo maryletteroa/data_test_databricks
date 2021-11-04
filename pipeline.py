@@ -259,8 +259,8 @@ for table in glob(f"/dbfs/{present_data_dir}/*"):
 
 # COMMAND ----------
 
-# with open("/dbfs/FileStore/data_test_demo/docs/data_profiles/2_clean/stores_data_profile_report.html") as html:
-#   displayHTML(html.read())
+with open("/dbfs/FileStore/data_test_demo/docs/data_profiles/2_clean/stores_data_profile_report.html") as html:
+  displayHTML(html.read())
 
 # COMMAND ----------
 
@@ -325,5 +325,5 @@ for name in names:
 
 # COMMAND ----------
 
-# with open("/dbfs/FileStore/data_test_demo/docs/great_expectations/data_docs/index.html") as html:
-#   displayHTML(html.read())
+with open("/dbfs/FileStore/data_test_demo/docs/great_expectations/data_docs/index.html") as html:
+  displayHTML(html.read())
